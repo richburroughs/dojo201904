@@ -1,3 +1,6 @@
+theme: Zurich, 3
+
+
 # Learning Through Failure
 
 Rich Burroughs
@@ -13,7 +16,7 @@ Gremlin, Inc.
 
 ---
 
-![](images/dog_day.jpg)
+![100%](images/dog_day.jpg)
 
 ^Was in oncall rotations for about 20 years of my career
 ^Thousand yard stare
@@ -51,9 +54,11 @@ Gremlin, Inc.
 
 ![fit](images/how_complex_systems_fail.png)
 
+^Catastrophe is always just around the corner
+
 ---
 
-> Catastrophe is always just around the corner
+![150%](images/soylent_green.jpg)
 
 ---
 
