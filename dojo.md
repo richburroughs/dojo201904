@@ -7,13 +7,20 @@ Gremlin, Inc.
 
 ---
 
-![](images/dream_of_the_90s.png)
+![100%](images/dream_of_the_90s.png)
 
 ^I started off in the industry in the mid 90s, working for an Internet Provider in Portland
 
 ---
 
-![](images/webmd.png)
+![](images/dog_day.jpg)
+
+^Was in oncall rotations for about 20 years of my career
+^Thousand yard stare
+
+---
+
+![fit](images/webmd.png)
 
 ^My next job was at a site you might have spent some panicked moments on
 ^Very high traffic site on the Internet
@@ -24,4 +31,30 @@ Gremlin, Inc.
 ##Image of WebMD architecture: 3 web servers, load balancer, DB
 
 ^Used to deploy the site
+^Take one server out of farm, run scripts, put it back in service
+
+---
+
+![100%](images/netflix-microservices-diagram-bruce-wong.jpg)
+
+---
+
+#Complexity
+
+^Virtualization
+^Microservices
+^Cloud
+^Containers
+^Kubernetes
+
+---
+
+![fit](images/how_complex_systems_fail.png)
+
+---
+
+> Catastrophe is always just around the corner
+
+---
+
 
