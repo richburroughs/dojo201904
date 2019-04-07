@@ -68,6 +68,7 @@ Gremlin, Inc.
 ---
 
 #"Catastrophe is always just around the corner"
+^Failure is inevitable
 
 ---
 
@@ -83,14 +84,44 @@ Gremlin, Inc.
 
 ---
 
-#"Human expertise in complex systems is constantly changing"
-
----
-
 ![150%](images/soylent_green.jpg)
 
 ^People specialize and have different areas of expertise
 
 ---
 
+#Mental models
+
+^Allspaw tweet
+
+---
+
+#How do we learn about systems?
+
+---
+
+![fit](images/logan_mcdonald.png)
+
+^Optimizing through learning
+^Studying systems with tools like flash cards
+
+---
+
+#RPG
+
+---
+
+#Chaos Engineering
+
+---
+
+##"The science of performing intentional experimentation on a system by injecting precise and measured amounts of harm to observe how the system responds for the purpose of improving the system’s resilience."
+
+^Injecting failure
+
+---
+
+![fit](images/chaos_monkey.png)
+
+---
 
