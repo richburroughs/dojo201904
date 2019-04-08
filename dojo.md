@@ -74,7 +74,7 @@ Gremlin, Inc.
 
 #"Change introduces new forms of failure"
 
-^New technologies
+^New technologies may have bigger failure modes
 
 ---
 
@@ -162,4 +162,48 @@ Gremlin, Inc.
 
 ---
 
+Expermiment card
+
+---
+
+#Blast Radius
+
+^The service
+^Number of host
+^Environment (production or staging)
+
+---
+
+#The goal is to experiment in Production
+
+^No other environment will be exactly like it
+
+---
+
+#Types of attacks
+- Shutdown
+- CPU
+- Memory
+- Network Latency
+- Packet Loss
+
+---
+
+#Don't experiment on things you know are broken
+
+---
+
+#Example experiment
+
+---
+
+#Other things you can do
+- Validate post-incident remediation
+- Validate monitoring/observability
+
+---
+
+#Continuous Chaos
+
+---
 
