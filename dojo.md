@@ -96,7 +96,20 @@ Gremlin, Inc.
 
 ---
 
-#How do we learn about systems?
+#S3 outage
+
+---
+
+#How can we learn about systems?
+
+---
+
+#Docs
+
+^Internal docs like Wikis
+^External docs for open source and proprietary software
+^Wikis get stale
+^What you drew on the white board may not really be how the system works
 
 ---
 
@@ -123,5 +136,30 @@ Gremlin, Inc.
 
 ![fit](images/chaos_monkey.png)
 
+^Created in 2010 for move into AWS
+^Shut down random hosts
+^Amazon and Google had both done failure testing
+
 ---
+
+![fit](images/ce_history_principles_practice.png)
+
+---
+
+#Prerequisites
+- Observability
+- Blameless Culture
+
+---
+
+#Scientific Method
+- Ask a question
+- Research
+- Form a hypothesis
+- Experiment to test the hypothesis
+- Analyze data and draw a conclusion
+- Share the results
+
+---
+
 
