@@ -122,6 +122,8 @@ Gremlin, Inc.
 
 #RPG
 
+^D&D for SRE
+
 ---
 
 #Chaos Engineering
@@ -146,6 +148,10 @@ Gremlin, Inc.
 
 ---
 
+#Who is doing Chaos Engineering?
+
+---
+
 #Prerequisites
 - Observability
 - Blameless Culture
@@ -159,10 +165,6 @@ Gremlin, Inc.
 - Experiment to test the hypothesis
 - Analyze data and draw a conclusion
 - Share the results
-
----
-
-Expermiment card
 
 ---
 
@@ -190,6 +192,10 @@ Expermiment card
 ---
 
 #Don't experiment on things you know are broken
+
+---
+
+#Expermiment card
 
 ---
 
