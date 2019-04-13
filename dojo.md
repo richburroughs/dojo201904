@@ -100,7 +100,7 @@ Gremlin, Inc.
 
 ---
 
-#How can we learn about systems?
+#What are some ways we can learn about systems?
 
 ---
 
@@ -156,6 +156,10 @@ Gremlin, Inc.
 - Observability
 - Blameless Culture
 
+^logging, monitoring, alerting and metrics
+^How we see what is happening with the system
+^People need to feel like they won't get fired for making a mistake
+
 ---
 
 #Scientific Method
@@ -165,6 +169,9 @@ Gremlin, Inc.
 - Experiment to test the hypothesis
 - Analyze data and draw a conclusion
 - Share the results
+
+^Sharing externally, or at least internally
+^At least everyone working on the system and stakeholders
 
 ---
 
@@ -195,11 +202,19 @@ Gremlin, Inc.
 
 ---
 
-#Expermiment card
+![fit](images/chaos_experiment_card.png)
+
+^Abort conditions - big red button
 
 ---
 
 #Example experiment
+
+---
+
+#Game Days
+
+^Onboarding
 
 ---
 
