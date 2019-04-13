@@ -90,9 +90,11 @@ Gremlin, Inc.
 
 ---
 
-#Mental models
+![100%](images/mental_models.png)
 
-^Allspaw tweet
+^We all have our own mental models of the system
+^The models come from our experience and knowlege
+^Example: network engineer
 
 ---
 
@@ -214,13 +216,22 @@ Gremlin, Inc.
 
 #Game Days
 
+^Team gets together to run experiments
+^People across disciplines
+^This is how we broaden our mental models
+^Looking at how the system works vs what's on the white board
 ^Onboarding
 
 ---
 
-#Other things you can do
-- Validate post-incident remediation
-- Validate monitoring/observability
+#Questions
+- Were we able to measure the results?
+- Did the system respond the way we expected?
+- Are there things we need to fix?
+
+---
+
+#Run experiments to duplicate an incident
 
 ---
 
