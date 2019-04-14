@@ -10,7 +10,7 @@ Gremlin, Inc.
 
 ---
 
-#Improving the lives of software engineers and operators
+#To improve the lives of software engineers and operators through empathy
 
 ---
 
@@ -86,6 +86,8 @@ Gremlin, Inc.
 
 ![150%](images/soylent_green.jpg)
 
+^People are an important part of systems
+^Users and operators
 ^People specialize and have different areas of expertise
 
 ---
@@ -113,7 +115,8 @@ Gremlin, Inc.
 
 ![fit](images/logan_mcdonald.png)
 
-^Optimizing through learning
+^Using learning tools
+^Logan's talk Optimizing Through Learning
 ^Studying systems with tools like flash cards
 
 ---
@@ -121,6 +124,8 @@ Gremlin, Inc.
 #RPG
 
 ^D&D for SRE
+^Gamemaster with scenarios, rolled dice
+^Practiced responding to the system but also the incident response process itself
 
 ---
 
@@ -131,6 +136,8 @@ Gremlin, Inc.
 ##"The science of performing intentional experimentation on a system by injecting precise and measured amounts of harm to observe how the system responds for the purpose of improving the system’s resilience."
 
 ^Injecting failure
+^Observing how the system responds
+^Improving resilience
 
 ---
 
@@ -184,6 +191,10 @@ Gremlin, Inc.
 #The goal is to experiment in Production
 
 ^No other environment will be exactly like it
+^Production environments have higher traffic and more data
+^Things may be misconfigured in production
+^But keep in mind blast radius
+^Start in the environment most like production (probably staging)
 
 ---
 
@@ -194,11 +205,15 @@ Gremlin, Inc.
 - Network Latency
 - Packet Loss
 
+^Types of attacks or failures
+
 ---
 
 ![fit](images/chaos_experiment_card.png)
 
-^Abort conditions - big red button
+^Abort conditions - what would cause us to stop the experiment?
+^Increase in error rate or latency, moving towards an SLO violation
+^Big red button
 
 ---
 
@@ -227,11 +242,14 @@ Gremlin, Inc.
 
 ---
 
-#Run experiments to duplicate an incident
+#Run experiments to simulate an incident you've had
 
 ---
 
 #Continuous Chaos
+^Run experiments in CI/CD pipeline
+^We still do Game Days
+^Chaos tools need an API or some other way to kick them off
 
 ---
 
