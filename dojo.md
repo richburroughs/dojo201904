@@ -98,11 +98,7 @@ Gremlin, Inc.
 
 ---
 
-#S3 outage
-
----
-
-#What are some ways we can learn about systems?
+#What are some ways we can learn more about systems?
 
 ---
 
@@ -200,10 +196,6 @@ Gremlin, Inc.
 
 ---
 
-#Don't experiment on things you know are broken
-
----
-
 ![fit](images/chaos_experiment_card.png)
 
 ^Abort conditions - big red button
@@ -211,6 +203,10 @@ Gremlin, Inc.
 ---
 
 #Example experiment
+
+---
+
+#Don't experiment on things you know are broken
 
 ---
 
