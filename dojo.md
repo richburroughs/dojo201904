@@ -10,10 +10,6 @@ Gremlin, Inc.
 
 ---
 
-#To improve the lives of software engineers and operators through empathy
-
----
-
 ![100%](images/dream_of_the_90s.png)
 
 ^I started off in the industry in the mid 90s, working for an Internet Provider in Portland
