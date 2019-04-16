@@ -43,7 +43,7 @@ Gremlin, Inc.
 
 ---
 
-##Image of WebMD architecture: 3 web servers, load balancer, DB
+![100%](images/webmd-diagram.png)
 
 ^This is what the architecture looked like
 ^Before horizontal scaling
@@ -198,8 +198,10 @@ Gremlin, Inc.
 - Shutdown
 - CPU
 - Memory
+- I/O
 - Network Latency
 - Packet Loss
+- DNS
 
 ^Types of attacks or failures
 
