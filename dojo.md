@@ -202,6 +202,7 @@ Gremlin, Inc.
 - Network Latency
 - Packet Loss
 - DNS
+- Blackhole
 
 ^Types of attacks or failures
 
@@ -216,6 +217,20 @@ Gremlin, Inc.
 ---
 
 #Example experiment
+
+- Application: Front End
+- Attack: CPU
+- Hypothesis: Adding CPU load will cause additional hosts to spin up in our Autoscaling Group
+- Abort condition: Latency increases by 20%
+
+---
+
+#Example experiment #2
+
+- Application: Front End
+- Attack: Blachole
+- Hypothesis: Blackholing the hostname for the Twilio API will cause the app to fail SMS transmissions
+- Abort condition: Error rate increases by 20%
 
 ---
 
