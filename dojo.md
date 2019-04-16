@@ -45,7 +45,7 @@ Gremlin, Inc.
 
 ![100%](images/webmd-diagram.png)
 
-^This is what the architecture looked like
+^This is what the front end architecture looked like
 ^Before horizontal scaling
 ^Used to deploy the site
 ^Take one server out of farm, run scripts, put it back in service
@@ -267,12 +267,11 @@ Gremlin, Inc.
 ---
 
 #Maturity model
-- Running ad hoc experiments
-- 
-
----
-
-#Links
+- Running manual experiments
+- Running experiments using Chaos Engineering tools
+- Regularly scheduled Game Days
+- Experimenting in Production
+- Continuous Chaos
 
 ---
 
