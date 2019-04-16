@@ -172,6 +172,20 @@ Gremlin, Inc.
 
 ---
 
+#Types of attacks
+- Shutdown
+- CPU
+- Memory
+- I/O
+- Network Latency
+- Packet Loss
+- DNS
+- Blackhole
+
+^Types of attacks or failures
+
+---
+
 #Blast Radius
 
 ^The service
@@ -187,20 +201,6 @@ Gremlin, Inc.
 ^Things may be misconfigured in production
 ^But keep in mind blast radius
 ^Start in the environment most like production (probably staging)
-
----
-
-#Types of attacks
-- Shutdown
-- CPU
-- Memory
-- I/O
-- Network Latency
-- Packet Loss
-- DNS
-- Blackhole
-
-^Types of attacks or failures
 
 ---
 
