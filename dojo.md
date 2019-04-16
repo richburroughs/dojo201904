@@ -149,10 +149,6 @@ Gremlin, Inc.
 
 ---
 
-#Who is doing Chaos Engineering?
-
----
-
 #Prerequisites
 - Observability
 - Blameless Culture
