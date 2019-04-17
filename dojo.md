@@ -56,14 +56,15 @@ Gremlin, Inc.
 
 ---
 
-#What else has changed?
+#What's changed?
 
-^Harder to learn about these more complex systems
+^Complexity make is harder to learn about systems
 ^Harder to know what's changed
 
 ---
 
-#Failure
+![120%](images/fail.jpg)
+
 ^Let's talk about failure
 
 ---
@@ -129,7 +130,7 @@ Gremlin, Inc.
 
 ---
 
-#RPG
+![fit](images/d-and-d.jpg)
 
 ^D&D for SRE
 ^Gamemaster with scenarios, rolled dice
@@ -301,6 +302,10 @@ Gremlin, Inc.
 
 ---
 
-#Thanks
+#Thank you!
+
+#Slides: https://github.com/richburroughs/dojo201904
+
 ^Thanks, hope you've learned a lot about how systems have changed.
 ^We're all on this journey together so let's be friends and help each other
+
