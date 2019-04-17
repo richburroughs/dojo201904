@@ -64,6 +64,7 @@ Gremlin, Inc.
 ---
 
 #Failure
+^Let's talk about failure
 
 ---
 
@@ -269,7 +270,14 @@ Gremlin, Inc.
 
 ---
 
+#What comes after Game Days?
+
+---
+
 #Continuous Chaos
+
+![inline](images/spinnaker-gremlin.png)
+
 ^Run experiments in CI/CD pipeline
 ^We still do Game Days
 ^Chaos tools need an API or some other way to kick them off
