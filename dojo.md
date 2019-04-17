@@ -300,6 +300,11 @@ Gremlin, Inc.
 - Read tutorials: gremlin.com/community
 - Chaos Conf: chaosconf.io
 
+^Free
+^Slack
+^Tutorials
+^Chaos Conf in Septemer in SF
+
 ---
 
 #Thank you!
