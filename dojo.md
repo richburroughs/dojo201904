@@ -56,6 +56,13 @@ Gremlin, Inc.
 
 ---
 
+#What else has changed?
+
+^Harder to learn about these more complex systems
+^Harder to know what's changed
+
+---
+
 #Failure
 
 ---
@@ -256,6 +263,9 @@ Gremlin, Inc.
 ---
 
 #Run experiments to simulate an incident you've had
+^Say you have an incident with network latency
+^Have a Game Day and inject latency
+^Remidiate and then have another Game Day to see if it worked
 
 ---
 
@@ -272,6 +282,14 @@ Gremlin, Inc.
 - Regularly scheduled Game Days
 - Experimenting in Production
 - Continuous Chaos
+
+---
+
+#Next steps:
+- Gremlin Free - go.gremlin.com/richchaos
+- Join our Chaos Engineering Slack - gremlin.com/slack
+- Read tutorials - gremlin.com/community
+- Chaos Conf - chaosconf.io
 
 ---
 
