@@ -97,7 +97,6 @@ Gremlin, Inc.
 ![150%](images/soylent_green.jpg)
 
 ^People are an important part of systems
-^Users and operators
 ^People specialize and have different areas of expertise
 
 ---
