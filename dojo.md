@@ -301,4 +301,6 @@ Gremlin, Inc.
 
 ---
 
-#Thank you
+#Thanks
+^Thanks, hope you've learned a lot about how systems have changed.
+^We're all on this journey together so let's be friends and help each other
