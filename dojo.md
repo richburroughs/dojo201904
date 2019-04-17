@@ -58,8 +58,9 @@ Gremlin, Inc.
 
 #What's changed?
 
-^Complexity make is harder to learn about systems
-^Harder to know what's changed
+^Complexity has gone up orders of magnitude
+^It makes it harder to learn about systems
+^Also harder to know what's changed
 
 ---
 
