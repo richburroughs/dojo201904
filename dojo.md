@@ -294,10 +294,10 @@ Gremlin, Inc.
 ---
 
 #Next steps:
-- Gremlin Free - go.gremlin.com/richchaos
-- Join our Chaos Engineering Slack - gremlin.com/slack
-- Read tutorials - gremlin.com/community
-- Chaos Conf - chaosconf.io
+- Gremlin Free: go.gremlin.com/richchaos
+- Join our Chaos Engineering Slack: gremlin.com/slack
+- Read tutorials: gremlin.com/community
+- Chaos Conf: chaosconf.io
 
 ---
 
