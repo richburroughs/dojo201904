@@ -56,6 +56,10 @@ Gremlin, Inc.
 
 ---
 
+#Failure
+
+---
+
 ![fit](images/how_complex_systems_fail.png)
 
 ^How Complex Systems Fail by Richard Cook
@@ -224,8 +228,8 @@ Gremlin, Inc.
 #Example experiment #2
 
 - Application: Front End
-- Attack: Blachole
-- Hypothesis: Blackholing the hostname for the Twilio API will cause the app to fail SMS transmissions
+- Attack: Blackhole
+- Hypothesis: Blackholing the hostname for the Twilio API will cause the SMS transmissions to time out
 - Abort condition: Error rate increases by 20%
 
 ---
