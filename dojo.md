@@ -224,29 +224,33 @@ Gremlin, Inc.
 
 ![120%](images/boom.jpg)
 
-^Blast radius
-The service or application, and what the impact to users is
-Number of hosts or containers (1 or 1000 hosts)
-Environment (production or staging)
+^-Blast radius
+-The service or application, and what the impact to users is
+-Number of hosts or containers (1 or 1000 hosts)
+-Environment (production or staging)
+-Start small and expand
 
 ---
 
 #The goal is to experiment in Production
 
-^No other environment will be exactly like it
-^Production environments have higher traffic and more data
-^Things may be misconfigured in production
-^But keep in mind blast radius
-^Start in the environment most like production (probably staging)
-^As Michael mentioned yesterday, depending on your industry you might not be able to do this, and that's ok
+^-No other environment will be exactly like it
+-Production environments have higher traffic and more data
+-Things may be misconfigured in production
+-But keep in mind blast radius
+-Start in the environment most like production (probably staging)
+-As Michael mentioned yesterday, depending on your industry you might not be able to do this, and that's ok
 
 ---
 
 ![fit](images/chaos_experiment_card.png)
 
-^Abort conditions - what would cause us to stop the experiment?
-^Increase in error rate or latency, moving towards an SLO violation
-^Big red button
+^-Abort conditions - what would cause us to stop the experiment?
+-Increase in error rate or latency
+-moving towards an SLA or SLO violation
+-Getting certain alerts from your monitoring
+-Corralry is your tool has to have the Big Red Button
+-Could be a literal button or a command, but you have to be able to halt all experiments
 
 ---
 
@@ -270,20 +274,20 @@ Environment (production or staging)
 
 #Don't experiment on things you know are broken
 
-^Make them resilient first
-This relates to what Michael was talking about with everything being on fire
+^-Make them resilient first
+-This relates to what Michael was talking about with everything being on fire. If your systems aren't somewhat resilient you're not going to get a ton from chaos engineering. But the hope is also that we find problems and correct them.
 
 ---
 
 ![120%](images/game-day-ned.jpg)
 
-^Game Days
-Team gets together to run experiments
-People across disciplines
-This is how we improve our mental models
-Looking at how the system works vs what's on the white board
-Ross mentioned yesterday openness, collaboration and fun
-Onboarding
+^-Game Days
+-Team gets together to run experiments
+-People across disciplines
+-This is how we improve our mental models
+-Looking at how the system works vs what's on the white board
+-Onboarding
+-Ross mentioned yesterday openness, collaboration and fun
 
 ---
 
@@ -296,9 +300,9 @@ Onboarding
 
 #Run experiments to simulate an incident you've had
 
-^Say you have an incident with network latency
-Have a Game Day and inject latency
-Remidiate and then have another Game Day to see if it worked
+^-Say you have an incident with network latency
+-Have a Game Day and inject latency
+-Remidiate the problem and then have another Game Day to see if it worked
 
 ---
 
@@ -310,9 +314,10 @@ Remidiate and then have another Game Day to see if it worked
 
 ![inline](images/spinnaker-gremlin.png)
 
-^Run experiments in CI/CD pipeline
-We still do Game Days
-Chaos tools need an API or some other way to kick them off
+^-Run experiments in CI/CD pipeline
+-Here's an example of an integration with Spinnaker
+-We still do Game Days
+-Chaos tools need an API or some other way to kick them off
 
 ---
 
@@ -341,6 +346,6 @@ Email: richb@gremlin.com
 
 #Slides: https://github.com/richburroughs/dojo201904
 
-^Thanks, hope you've learned a lot about how systems have changed.
+^Thanks, hope yougot some ideas on how to learn more about your systems.
 We're all on this journey together so let's be friends and help each other
 
