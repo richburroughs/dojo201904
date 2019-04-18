@@ -12,25 +12,25 @@ Gremlin, Inc.
 
 ![100%](images/dream_of_the_90s.png)
 
-^I started off in the industry in the mid 90s, working for an Internet Provider in Portland
+^I started off in the industry in the mid 90s, in beautiful Portland, Oregon, working for an Internet Provider
 
 ---
 
 ![100%](images/dog_day.jpg)
 
 ^Was in oncall rotations for about 20 years of my career
-^Thousand yard stare
+Have a bit of what's called the housand yard stare
 
 ---
 
 #Complexity is constantly increasing
 
 ^Virtualization
-^Microservices
-^Cloud
-^Containers
-^Kubernetes
-^Service meshes
+Microservices
+Cloud
+Containers
+Kubernetes
+Service meshes
 
 ---
 
@@ -38,29 +38,33 @@ Gremlin, Inc.
 
 
 ^My next job was at a site you might have spent some panicked moments on
-^Very high traffic site on the Internet
-^Taking out Super Bowl Ads
+Very high traffic site on the Internet
+Taking out Super Bowl Ads
 
 ---
 
 ![100%](images/webmd-diagram.png)
 
 ^This is what the front end architecture looked like
-^Before horizontal scaling
-^Used to deploy the site
-^Take one server out of farm, run scripts, put it back in service
+Load balancer, 3 big web servers, database and things on the backend
+Before horizontal scaling
+Used to deploy the site
+Take one server out of farm, run scripts, put it back in service
 
 ---
 
 ![100%](images/netflix-microservices-diagram-bruce-wong.jpg)
+
+^This is an image of the Netflix microservices architecture
+It's not even current, so if anything things are more complex
 
 ---
 
 #What's changed?
 
 ^Complexity has gone up orders of magnitude
-^It makes it harder to learn about systems
-^Also harder to know what's changed
+All this complexity makes it harder to learn about systems
+Also harder to know what's changed
 
 ---
 
@@ -79,21 +83,27 @@ Gremlin, Inc.
 
 #"Catastrophe is always just around the corner"
 ^When I started in the industry people thought they could engineer their way out of failure
-^We'll have redundant everything and we'll never go down
-^Failure is inevitable
-^As Michael said yesterday we want to have a failure mindset
+"We'll have redundant everything and we'll never go down"
+But failure is inevitable
+As Michael said yesterday we want to have a failure mindset
 
 ---
 
 #"Change introduces new forms of failure"
 
-^New technologies may have bigger failure modes
+^He's talking here about adopting new technologies
+New technologies have new failure modes
+They may be even worse failure modes than the ones you used before
 
 ---
 
 #"All practitioner actions are gambles"
 
-^Uncertainty
+^Here he's talking about uncertainty
+None of us have perfect knowledge of the systems
+When your pager wakes you up at 3AM and you're groggy headed you have the alert message and some other things to go on but you're gambling, like a poker player
+"Successful outcomes are also the results of gambles"
+Several of the points he makes in the paper mention people
 
 ---
 
@@ -116,28 +126,28 @@ Gremlin, Inc.
 
 ---
 
-#Docs
+![90%](images/sam-got.jpg)
 
-^Internal docs like Wikis
 ^External docs for open source and proprietary software
-^Wikis get stale
-^What you drew on the white board may not really be how the system works
+Internal docs like Wikis
+Wikis get stale
+What you drew on the white board may not really be how the system works
 
 ---
 
 ![fit](images/logan_mcdonald.png)
 
 ^Using learning tools
-^Logan's talk Optimizing Through Learning
-^Studying systems with tools like flash cards
+Logan's talk Optimizing Through Learning
+Studying systems with tools like flash cards
 
 ---
 
 ![fit](images/d-and-d.jpg)
 
 ^D&D for SRE
-^Gamemaster with scenarios, rolled dice
-^Practiced responding to the system but also the incident response process itself
+Gamemaster with scenarios, rolled dice
+Practiced responding to the system but also the incident response process itself
 
 ---
 
@@ -148,20 +158,18 @@ Gremlin, Inc.
 ##"The science of performing intentional experimentation on a system by injecting precise and measured amounts of harm to observe how the system responds for the purpose of improving the system’s resilience."
 
 ^Injecting failure
-^Observing how the system responds
-^Improving resilience
+Observing how the system responds
+Improving resilience
 
 ---
 
 ![fit](images/chaos_monkey.png)
 
 ^Created in 2010 for move into AWS
-^Shut down random hosts
-^Amazon and Google had both done failure testing
-
----
-
-![fit](images/ce_history_principles_practice.png)
+Shut down random hosts
+Netflix has built other tools and contributed a lot to the community
+Amazon and Google had both done failure testing
+When I think of those 3 companies I think of resilient systems
 
 ---
 
@@ -249,16 +257,19 @@ Gremlin, Inc.
 
 #Don't experiment on things you know are broken
 
+^Make them resilient first
+This relates to what Michael was talking about with everything being on fire
+
 ---
 
 #Game Days
 
 ^Team gets together to run experiments
-^People across disciplines
-^This is how we broaden our mental models
-^Looking at how the system works vs what's on the white board
-^Ross mentioned yesterday openness, collaboration and fun
-^Onboarding
+People across disciplines
+This is how we broaden our mental models
+Looking at how the system works vs what's on the white board
+Ross mentioned yesterday openness, collaboration and fun
+Onboarding
 
 
 ---
@@ -271,9 +282,10 @@ Gremlin, Inc.
 ---
 
 #Run experiments to simulate an incident you've had
+
 ^Say you have an incident with network latency
-^Have a Game Day and inject latency
-^Remidiate and then have another Game Day to see if it worked
+Have a Game Day and inject latency
+Remidiate and then have another Game Day to see if it worked
 
 ---
 
@@ -285,9 +297,9 @@ Gremlin, Inc.
 
 ![inline](images/spinnaker-gremlin.png)
 
-^Run experiments in CI/CD pipeline
-^We still do Game Days
-^Chaos tools need an API or some other way to kick them off
+Run experiments in CI/CD pipeline
+We still do Game Days
+Chaos tools need an API or some other way to kick them off
 
 ---
 
@@ -301,19 +313,23 @@ Gremlin, Inc.
 ---
 
 #Next steps:
-- Gremlin Free: go.gremlin.com/richchaos
+
 - Join our Chaos Engineering Slack: gremlin.com/slack
 - Read tutorials: gremlin.com/community
 - Chaos Conf: chaosconf.io
+- Gremlin Free: go.gremlin.com/richchaos
 
-^Free
 ^Slack
-^Tutorials
-^Chaos Conf in Septemer in SF
+Tutorials
+Chaos Conf in September in SF
+Free
 
 ---
 
 #Thank you!
+
+Twitter: @richburroughs
+Email: richb@gremlin.com
 
 #Slides: https://github.com/richburroughs/dojo201904
 
