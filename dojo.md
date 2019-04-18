@@ -12,113 +12,116 @@ Gremlin, Inc.
 
 ![100%](images/dream_of_the_90s.png)
 
-^I started off in the industry in the mid 90s, in beautiful Portland, Oregon, working for an Internet Provider
+^-I started off in the tech industry in the mid 90s, in beautiful Portland, Oregon, working for an Internet Provider
 
 ---
 
 ![100%](images/dog_day.jpg)
 
-^Was in oncall rotations for about 20 years of my career
-Have a bit of what's called the housand yard stare
+^-Was in oncall rotations for about 20 years of my career
+-Have a bit of what's called the thousand yard stare
 
 ---
 
 #Complexity is constantly increasing
 
-^Virtualization
-Microservices
-Cloud
-Containers
-Kubernetes
-Service meshes
+^-Virtualization
+-Microservices
+-Cloud
+-Containers
+-Kubernetes
+-Service meshes on top of Kubernetes
+-The stack keeps growing
+-My second tech job was working on a site you might have spent some panicked moments on:
 
 ---
 
 ![fit](images/webmd.png)
 
-
-^My next job was at a site you might have spent some panicked moments on
-Very high traffic site on the Internet
-Taking out Super Bowl Ads
+^-This is the best screenshot I could find from what the site looked like back then
+-I worked there between 1998 and 2000
+-It was a very high traffic site on the Internet
+-The company was taking out Super Bowl ads and we were dealing with that rush, but the day to day traffic was very high too
 
 ---
 
 ![100%](images/webmd-diagram.png)
 
-^This is what the front end architecture looked like
-Load balancer, 3 big web servers, database and things on the backend
-Before horizontal scaling
-Used to deploy the site
-Take one server out of farm, run scripts, put it back in service
+^-This is what the front end architecture looked like
+-Load balancer, 3 big web servers, database and things on the backend
+-Before horizontal scaling
+-Used to deploy the site
+-Take one server out of farm, run scripts, put it back in service
+-That's a high traffic site in 1998, compare it to this:
 
 ---
 
 ![100%](images/netflix-microservices-diagram-bruce-wong.jpg)
 
-^This is an image of the Netflix microservices architecture
-It's not even current, so if anything things are more complex
+^-This is an image of the Netflix microservices architecture
+-It's not even current, so if anything things are more complex
 
 ---
 
 #What's changed?
 
-^Complexity has gone up orders of magnitude
-All this complexity makes it harder to learn about systems
-Also harder to know what's changed
+^-Complexity has gone up orders of magnitude
+-All this complexity makes it harder to learn about systems
+-It's also harder to know what's changed
 
 ---
 
 ![120%](images/fail.jpg)
 
-^Let's talk about failure
+^-Let's talk about failure
 
 ---
 
 ![fit](images/how_complex_systems_fail.png)
 
-^How Complex Systems Fail by Richard Cook
-^18 points, here are a few
+^-How Complex Systems Fail by Richard Cook
+-18 points, here are a few
 
 ---
 
 #"Catastrophe is always just around the corner"
-^When I started in the industry people thought they could engineer their way out of failure
-"We'll have redundant everything and we'll never go down"
-But failure is inevitable
-As Michael said yesterday we want to have a failure mindset
+^-When I started in the industry people thought they could engineer their way out of failure
+-"We'll have redundant everything and we'll never go down"
+-But failure is inevitable
+-As Michael said yesterday we want to have a failure mindset
 
 ---
 
 #"Change introduces new forms of failure"
 
-^He's talking here about adopting new technologies
-New technologies have new failure modes
-They may be even worse failure modes than the ones you used before
+^-He's talking here about adopting new technologies
+-New technologies have new failure modes
+-The new failure modes may be even worse than the ones you had before
 
 ---
 
 #"All practitioner actions are gambles"
 
-^Here he's talking about uncertainty
-None of us have perfect knowledge of the systems
-When your pager wakes you up at 3AM and you're groggy headed you have the alert message and some other things to go on but you're gambling, like a poker player
-"Successful outcomes are also the results of gambles"
-Several of the points he makes in the paper mention people
+^-Here he's talking about uncertainty
+-None of us have perfect knowledge of the systems
+-When your pager wakes you up at 3AM and you're groggy headed you have the alert message and some other things to go on but you're gambling, like a poker player
+-"Successful outcomes are also the results of gambles"
+-Several of the points he makes in the paper mention people
 
 ---
 
 ![150%](images/soylent_green.jpg)
 
-^People are an important part of systems
-^People specialize and have different areas of expertise
+^-People are an important part of systems
+-People specialize and have different areas of expertise
 
 ---
 
 ![100%](images/mental_models.png)
 
-^We all have our own mental models of the system
-^The models come from our experience and knowlege
-^Example: network engineer
+^-We all have our own mental models of the system
+-The models come from our experience and knowlege
+-Example: network engineer
 
 ---
 
@@ -128,26 +131,31 @@ Several of the points he makes in the paper mention people
 
 ![90%](images/sam-got.jpg)
 
-^External docs for open source and proprietary software
-Internal docs like Wikis
-Wikis get stale
-What you drew on the white board may not really be how the system works
+^-Documentation
+-External docs for open source and proprietary software
+-Internal docs like Wikis
+-Wikis get stale
+-What's worse, you may not even know if they're stale
+-What you drew on the white board may not really be how the system works
+-So what are some other more effective ways we can learn?
 
 ---
 
 ![fit](images/logan_mcdonald.png)
 
-^Using learning tools
-Logan's talk Optimizing Through Learning
-Studying systems with tools like flash cards
+^-Using learning tools
+-Logan's talk Optimizing Through Learning
+-Studying systems with tools like flash cards
 
 ---
 
 ![fit](images/d-and-d.jpg)
 
-^D&D for SRE
-Gamemaster with scenarios, rolled dice
-Practiced responding to the system but also the incident response process itself
+^-You could do some tabletop roleplaying
+-I did this at a previous jobs
+-D&D for SREs
+-Gamemaster with scenarios, rolled dice
+-Practiced responding to the problem, but we also practiced the incident response process itself
 
 ---
 
@@ -157,19 +165,19 @@ Practiced responding to the system but also the incident response process itself
 
 ##"The science of performing intentional experimentation on a system by injecting precise and measured amounts of harm to observe how the system responds for the purpose of improving the system’s resilience."
 
-^Injecting failure
-Observing how the system responds
-Improving resilience
+^-Injecting failure
+-Observing how the system responds
+-Improving resilience
 
 ---
 
 ![fit](images/chaos_monkey.png)
 
-^Created in 2010 for move into AWS
-Shut down random hosts
-Netflix has built other tools and contributed a lot to the community
-Amazon and Google had both done failure testing
-When I think of those 3 companies I think of resilient systems
+^-Created in 2010 for move into AWS
+-Shut down random hosts
+-Netflix has built other tools and contributed a lot to the community
+-Amazon and Google had both done failure testing
+-When I think of those 3 companies I think of resilient systems
 
 ---
 
@@ -177,9 +185,10 @@ When I think of those 3 companies I think of resilient systems
 - Observability
 - Blameless Culture
 
-^logging, monitoring, alerting and metrics
-^How we see what is happening with the system
-^People need to feel like they won't get fired for making a mistake
+^-logging, monitoring, alerting and metrics
+-How we observe what is happening with the system
+-This is how we'll see the results of the failures
+-Blamelessness: People need to feel like they won't get fired for making a mistake
 
 ---
 
@@ -191,8 +200,10 @@ When I think of those 3 companies I think of resilient systems
 - Analyze data and draw a conclusion
 - Share the results
 
-^Sharing externally, or at least internally
-^At least everyone working on the system and stakeholders
+^-Sharing externally
+-Not many people are doing it
+-At least 2 reasons: they may not want to publish results that showed they had a problem, and they may view their Chaos Engineering as a competitive advantage
+-You should at least share internally with everyone working on the system and stakeholders
 
 ---
 
@@ -206,7 +217,8 @@ When I think of those 3 companies I think of resilient systems
 - DNS
 - Blackhole
 
-^Types of attacks or failures
+^-Types of failures we can inject, we call these attacks
+-There are others but this gives you an idea what you can do
 
 ---
 
@@ -263,15 +275,15 @@ This relates to what Michael was talking about with everything being on fire
 
 ---
 
-#Game Days
+![120%](images/game-day-ned.jpg)
 
-^Team gets together to run experiments
+^Game Days
+Team gets together to run experiments
 People across disciplines
-This is how we broaden our mental models
+This is how we improve our mental models
 Looking at how the system works vs what's on the white board
 Ross mentioned yesterday openness, collaboration and fun
 Onboarding
-
 
 ---
 
@@ -330,5 +342,5 @@ Email: richb@gremlin.com
 #Slides: https://github.com/richburroughs/dojo201904
 
 ^Thanks, hope you've learned a lot about how systems have changed.
-^We're all on this journey together so let's be friends and help each other
+We're all on this journey together so let's be friends and help each other
 
