@@ -78,7 +78,10 @@ Gremlin, Inc.
 ---
 
 #"Catastrophe is always just around the corner"
+^When I started in the industry people thought they could engineer their way out of failure
+^We'll have redundant everything and we'll never go down
 ^Failure is inevitable
+^As Michael said yesterday we want to have a failure mindset
 
 ---
 
@@ -214,6 +217,7 @@ Gremlin, Inc.
 ^Things may be misconfigured in production
 ^But keep in mind blast radius
 ^Start in the environment most like production (probably staging)
+^As Michael mentioned yesterday, depending on your industry you might not be able to do this, and that's ok
 
 ---
 
@@ -253,7 +257,9 @@ Gremlin, Inc.
 ^People across disciplines
 ^This is how we broaden our mental models
 ^Looking at how the system works vs what's on the white board
+^Ross mentioned yesterday openness, collaboration and fun
 ^Onboarding
+
 
 ---
 
