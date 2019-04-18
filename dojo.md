@@ -210,11 +210,12 @@ When I think of those 3 companies I think of resilient systems
 
 ---
 
-#Blast Radius
+![120%](images/boom.jpg)
 
-^The service
-^Number of host
-^Environment (production or staging)
+^Blast radius
+The service or application, and what the impact to users is
+Number of hosts or containers (1 or 1000 hosts)
+Environment (production or staging)
 
 ---
 
@@ -297,7 +298,7 @@ Remidiate and then have another Game Day to see if it worked
 
 ![inline](images/spinnaker-gremlin.png)
 
-Run experiments in CI/CD pipeline
+^Run experiments in CI/CD pipeline
 We still do Game Days
 Chaos tools need an API or some other way to kick them off
 
@@ -318,11 +319,6 @@ Chaos tools need an API or some other way to kick them off
 - Read tutorials: gremlin.com/community
 - Chaos Conf: chaosconf.io
 - Gremlin Free: go.gremlin.com/richchaos
-
-^Slack
-Tutorials
-Chaos Conf in September in SF
-Free
 
 ---
 
