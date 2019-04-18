@@ -165,9 +165,9 @@ Gremlin, Inc.
 
 ##"The science of performing intentional experimentation on a system by injecting precise and measured amounts of harm to observe how the system responds for the purpose of improving the system’s resilience."
 
-^-Injecting failure
+^-Injecting harm or failure
 -Observing how the system responds
--Improving resilience
+-Doing this to improve resilience
 
 ---
 
@@ -249,7 +249,7 @@ Gremlin, Inc.
 -Increase in error rate or latency
 -moving towards an SLA or SLO violation
 -Getting certain alerts from your monitoring
--Corralry is your tool has to have the Big Red Button
+-Corollary is your tool has to have the Big Red Button
 -Could be a literal button or a command, but you have to be able to halt all experiments
 
 ---
@@ -279,7 +279,7 @@ Gremlin, Inc.
 
 ---
 
-![120%](images/game-day-ned.jpg)
+![100%](images/game-day-ned.jpg)
 
 ^-Game Days
 -Team gets together to run experiments
